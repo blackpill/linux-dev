@@ -9,5 +9,6 @@ ADD init_www.sh    /init_www.sh
 RUN  chmod +x /init_www.sh
 RUN apt-get update && apt-get install -y  --allow-unauthenticated\
                       vim \
-                      subversion                    
+                      subversion \
+                      mysql-client                    
 CMD /bin/bash                  
